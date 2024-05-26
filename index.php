@@ -78,42 +78,125 @@
       <div class="col-md-10">
          <!--- products --->
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
             <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="./img/carrot1.jpg" class="card-img-top" alt="carrot">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">View more</a>
+
   </div>
 </div>
 </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
             <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="./img/dairy_chocolate.jpg" class="card-img-top" alt="dairy_milk_chocolate">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">View more</a>
+
   </div>
 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
             <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="./img/Red_capsicum_01.jpg" class="card-img-top" alt="red_capsicum">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">View more</a>
+
+  </div>
+            </div>
+</div>
+<div class="col-md-4 mb-2">
+            <div class="card">
+  <img src="./img/yellow_capsicum_02.jpg" class="card-img-top" alt="yellow_capsicum">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">View more</a>
+
+  </div>
+            </div>
+</div>
+<div class="col-md-4 mb-2">
+            <div class="card">
+  <img src="./img/vegetables.jpg" class="card-img-top" alt="vegetables">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-ingo">Add to cart</a>
+    <a href="#" class="btn btn-secondary">View more</a>
+
+  </div>
+            </div>
+</div>
+<div class="col-md-4 mb-2">
+            <div class="card">
+  <img src="./img/apple1.jpg" class="card-img-top" alt="single_apple">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">View more</a>
+
   </div>
             </div>
 </div>
         </div>
     </div>
       
-       <div class="col-md-2">
+       <div class="col-md-2 bg-secondary p-0">
          <!--- sidenav --->
-         <h1>hey</h1>
+         <!--- brands to be displayed --->
+         <ul class="navbar-nav me-auto text-center">
+        <li class="nav-item bg-info">
+          <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Brand1</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Brand2</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Brand3</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Brand4</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Brand5</a>
+        </li>
+       </ul>
+       <!--- categories to be dislpayed --->
+       <ul class="navbar-nav me-auto text-center">
+        <li class="nav-item bg-info">
+          <a href="#" class="nav-link text-light"><h4>Categories</h4></a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Category1</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Category2</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Category3</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Category4</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link text-light">Category5</a>
+        </li>
+       </ul>
         </div> 
        
     </div>
@@ -125,10 +208,10 @@
 
 
 
-    <!--- last child 
+    <!--- last child --->
     <div class="bg-info p-3 text-center">
-        <p>All rights reserved  &copy-Designed by  Khanam-2022</p>
-    </div> --->
+        <p>All rights reserved  &copy-Designed by  Aryan Chauhan & Aastha Singh</p>
+    </div> 
     </div>
 
     <!----  Bootstrap JS link  ---->
