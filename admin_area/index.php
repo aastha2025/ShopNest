@@ -40,16 +40,16 @@
 </div>
          <!--- button*10>a.nav-link.text-light.bg-info.my-1 --->
         <div class="button text-center">
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>Insert Products</button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>View Products</button>
-            <button class="my-3"><a href="insert_categories.php" class="nav-link text-light bg-info my-1"></a>Insert Categories</button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>View Categories</button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>Insert Brands</button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>View Brands</button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>All orders</button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>All payments</button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>List users</button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1"></a>Logout</button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">Insert Products</a></button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">View Products</a></button>
+            <button class="my-3"><a href="insert_categories.php" class="nav-link text-light bg-info my-1">Insert Categories</a></button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">View Categories</a></button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">Insert Brands</a></button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">View Brands</a></button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">All orders</a></button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">All payments</a></button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">List users</a></button>
+            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">Logout</a></button>
         </div>
   </div>
  </div>
