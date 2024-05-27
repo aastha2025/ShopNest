@@ -32,9 +32,11 @@
     <div class="bg-light">
         <h3 class="text-center p-2">Manage Details</h3>
     </div>
+
+    <!-- third child --->
     <div class="row">
         <div class="col-md-12 bg-secondary p-1 d-flex align-items-center">
-              <div class="px-3ss">
+              <div class="px-3">
                 <a href="#"><img src="../img/pineapple-juice.jpg" alt="" class="admin_image"></a>
                 <p class="text-light text-center">Admin Name</p>
 </div>
@@ -42,9 +44,9 @@
         <div class="button text-center">
             <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">Insert Products</a></button>
             <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">View Products</a></button>
-            <button class="my-3"><a href="insert_categories.php" class="nav-link text-light bg-info my-1">Insert Categories</a></button>
+            <button class="my-3"><a href="index.php?insert_category" class="nav-link text-light bg-info my-1">Insert Categories</a></button>
             <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">View Categories</a></button>
-            <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">Insert Brands</a></button>
+            <button class="my-3"><a href="index.php?insert_brand" class="nav-link text-light bg-info my-1">Insert Brands</a></button>
             <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">View Brands</a></button>
             <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">All orders</a></button>
             <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">All payments</a></button>
@@ -53,6 +55,29 @@
         </div>
   </div>
  </div>
+
+
+ <!--- fourth child --->
+<div class="container my-5">
+    <?php 
+        if(isset($_GET['insert_category'])){
+            include('insert_categories.php');
+        }
+
+        if(isset($_GET['insert_brand'])){
+            include('insert_brands.php');
+        }
+    ?>
+</div>
+
+
+
+
+
+
+
+
+
      <!--- last child --->
      <?php include "../footer.php" ?>
 

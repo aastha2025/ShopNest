@@ -202,9 +202,6 @@
     </div>
 
     <!--- last child --->
-    <!---<div class="bg-info p-3 text-center">
-        <p>All rights reserved  &copy-Designed by  Aryan Chauhan & Aastha Singh</p>
-    </div> -->
     <?php include "./footer.php" ?>
     </div>
 
