@@ -1,3 +1,9 @@
+<!--- connect file --->
+<?php
+
+include('../includes/connect.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -175,7 +181,7 @@
         <li class="nav-item ">
           <a href="#" class="nav-link text-light">Brand5</a>
         </li>
-       </ul>
+</ul>
        <!--- categories to be dislpayed --->
        <ul class="navbar-nav me-auto text-center">
         <li class="nav-item bg-info">
@@ -202,6 +208,8 @@
     </div>
 
     <!--- last child --->
+  
+
     <?php include "./footer.php" ?>
     </div>
 
