@@ -30,7 +30,7 @@ if($_result){
   <input type="text" class="form-control"name="brand_title" placeholder="Insert Brands" aria-label="brands" aria-describedby="basic-addon1">
 </div>
 <div class="input-group w-10 mb-2 m-auto">
- <input type="submit" class="l bg-info b-0 p-2 my-3"name="insert_brand" value="Insert Brands">
+ <input type="submit" class="rounded-4 l bg-info b-0 p-2 my-3"name="insert_brand" value="Insert Brands">
 
 <!---<button class="bg-info p-2  m-3 border-0">Insert Brands</button>--->
 

@@ -27,6 +27,6 @@ if($_result){
   <input type="text" class="form-control"name="cat_title" placeholder="Insert categories" aria-label="Categories" aria-describedby="basic-addon1">
 </div>
 <div class="input-group w-10 mb-2 m-auto">
-  <input type="submit" class=" bg-info border-0 p-2"name="insert_cat" value="Insert categories">
+  <input type="submit" class="rounded-4  bg-info border-0 p-2"name="insert_cat" value="Insert categories">
 </div>
 </form>
