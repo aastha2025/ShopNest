@@ -1,7 +1,7 @@
 <!--- connect file --->
 <?php
 
-include('../includes/connect.php');
+include('./includes/connect.php');
 
 ?>
 <!DOCTYPE html>
