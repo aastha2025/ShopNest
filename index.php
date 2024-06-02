@@ -1,37 +1,27 @@
-<!--- connect file --->
-<?php
-
-include('./includes/connect.php');
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=
-    , initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ShopNest</title>
-  <!----  Bootstrap Css link  ---->
-
+  <!-- Bootstrap CSS link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <!----  Font Awesome link  ---->
+  <!-- Font Awesome link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <!---- css file ---->
+  <!-- CSS file -->
   <link rel="stylesheet" href="style.css">
-
 </head>
 
-<body>
-  <!--- navbar  --->
-  <div class="container-fluid p-0">
-    <!--- first child --->
+<body class="d-flex flex-column min-vh-100">
+  <!--- Navbar --->
+  <div class="container-fluid p-0 flex-grow-1">
+    <!--- First child --->
     <?php include './nav.php'; ?>
 
-    <!---  second child --->
-    <nav class="navbar navbar-expand-lg  navbar-dark bg-secondary">
+    <!--- Second child --->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
           <a class="nav-link" href="#">Welcome Guest</a>
@@ -42,15 +32,15 @@ include('./includes/connect.php');
       </ul>
     </nav>
 
-    <!--- third child --->
+    <!--- Third child --->
     <div class="bg-light">
       <h3 class="text-center">Hidden Store</h3>
       <p class="text-center">Communication is at the heart of ShopNest and community</p>
     </div>
 
-
-    <!--- fourth child --->
-    <div class="row">
+    <!--- Fourth child --->
+ <!--- fourth child --->
+ <div class="row container-fluid">
       <div class="col-md-10">
         <!--- products --->
         <div class="row">
@@ -108,7 +98,7 @@ include('./includes/connect.php');
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-ingo">Add to cart</a>
+                <a href="#" class="btn btn-info">Add to cart</a>
                 <a href="#" class="btn btn-secondary">View more</a>
 
               </div>
@@ -130,8 +120,7 @@ include('./includes/connect.php');
       </div>
 
       <div class="col-md-2 bg-secondary p-0">
-        <!--- sidenav --->
-        <!--- brands to be displayed --->
+        
         <ul class="navbar-nav me-auto text-center">
           <li class="nav-item bg-info">
             <a href="#" class="nav-link text-light">
@@ -177,18 +166,22 @@ include('./includes/connect.php');
             <a href="#" class="nav-link text-light">Category5</a>
           </li>
         </ul>
+
       </div>
 
     </div>
 
     <!--- last child --->
 
-
-    <?php include "./footer.php" ?>
   </div>
 
-  <!----  Bootstrap JS link  ---->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+  <!--- Footer --->
+  <footer class="footer bg-info text-center p-3 mt-auto">
+    <p>All rights reserved &copy; Designed by Aryan Chauhan & Aastha Singh</p>
+  </footer>
+
+  <!-- Bootstrap JS link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
